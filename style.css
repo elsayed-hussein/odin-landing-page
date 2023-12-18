@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+}
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  width: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.header-links ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
